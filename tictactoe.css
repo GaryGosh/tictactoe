@@ -1,0 +1,58 @@
+body{
+    background: hsl(307, 12%, 27%);
+}
+
+td{
+    height: 100px;
+    width: 100px;
+    background: lightgreen;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 70px; 
+    font-weight: bolder;
+    text-align: center;
+    color: maroon;
+    
+}
+.header-wrapper{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    color: lightcoral;
+    text-align: center;
+}
+.vertical{
+    border-left: 4px solid #4692f5;
+    border-right: 4px solid #4692f5;
+}
+.horizontal{
+    border-top: 4px solid #4692f5;
+    border-bottom: 4px solid #4692f5;
+}
+#message{
+    text-align: center;
+    color: lightcoral;
+    font-size: 20px;
+}
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+}
+.resetButton{
+    background: chocolate;
+    font-size: 20px;
+    
+}
+#winnerBanner{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    color: rgb(48, 177, 177);
+    text-align: center;
+}
+
+table{
+    margin: auto;
+}
+td:hover{
+    border: 5px solid orangered;
+    background:#4692f5;
+   
+}

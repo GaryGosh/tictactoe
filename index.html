@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="tictactoe.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 class="header-wrapper">TIC TAC TOE</h1>
+    <br> <br>
+    <table>
+        <tr>
+            <td onclick="markTheBox(this, 0, 0)"></td>
+            <td class="vertical" onclick="markTheBox(this, 0, 1)"></td>
+            <td onclick="markTheBox(this, 0, 2)"></td>
+        </tr>
+        <tr>
+            <td class="horizontal" onclick="markTheBox(this, 1, 0)"></td>
+            <td class="vertical horizontal" onclick="markTheBox(this, 1, 1)"></td>
+            <td class="horizontal" onclick="markTheBox(this, 1, 2)"></td>
+        </tr>
+        <tr>
+            <td onclick="markTheBox(this, 2, 0)"></td>
+            <td class="vertical" onclick="markTheBox(this, 2, 1)"></td>
+            <td onclick="markTheBox(this, 2, 2)"></td>
+        </tr>
+    </table>
+    <br>
+    <div class="button-wrapper">
+        <button class="resetButton" onclick="reset()">Reset</button>
+    </div>
+    
+    <p id="winnerBanner"></p>
+    <script src="toe.js"></script>
+</body>
+</html>
